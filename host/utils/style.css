@@ -1,0 +1,36 @@
+*{
+    max-width: 100%;
+}
+
+.navbar{
+    margin-top: 3rem;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+.left, .right{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.App{
+    font-size: large;
+}
+
+.list{
+    text-decoration: none;
+    list-style: none;
+    padding: 5rem;
+}
+
+.listitem{
+    padding: 1rem;
+}
+.listitem:hover{
+    cursor: pointer;
+}
+
+.listitem::selection{
+    color: blue;
+}
